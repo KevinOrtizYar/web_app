@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:web_app/models/RecentWork.dart';
-
 import '../../../constants.dart';
 
 class RecentWorkCard extends StatefulWidget {
-  // just press "Command + ."
   const RecentWorkCard({
     Key? key,
     required this.index,
@@ -59,7 +57,7 @@ class _RecentWorkCardState extends State<RecentWorkCard> {
                     ),
                     SizedBox(height: kDefaultPadding),
                     Text(
-                      "View Details",
+                      "Ver Detalles",
                       style: TextStyle(decoration: TextDecoration.underline),
                     )
                   ],

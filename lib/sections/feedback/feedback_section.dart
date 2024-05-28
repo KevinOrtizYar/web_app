@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:web_app/components/section_title.dart';
 import 'package:web_app/constants.dart';
 import 'package:web_app/models/Feedback.dart';
-
 import 'components/feedback_card.dart';
 
 class FeedbackSection extends StatelessWidget {
@@ -15,7 +14,7 @@ class FeedbackSection extends StatelessWidget {
         children: [
           SectionTitle(
             title: "Feedback Received",
-            subTitle: "Client’s testimonials that inspired me a lot",
+            subTitle: "Testimonios de clientes que me inspiraron mucho.",
             color: Color(0xFF00B1FF),
           ),
           SizedBox(height: kDefaultPadding),

@@ -25,7 +25,7 @@ class RecentWorkSection extends StatelessWidget {
             child: HireMeCard(),
           ),
           SectionTitle(
-            title: "Recent Woorks",
+            title: "Trabajos Recientes",
             subTitle: "My Strong Areas",
             color: Color(0xFFFFB100),
           ),
