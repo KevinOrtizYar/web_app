@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:web_app/components/my_outline_button.dart';
 import '../constants.dart';
-import 'default_button.dart';
 
 class HireMeCard extends StatelessWidget {
   const HireMeCard({
@@ -47,7 +47,7 @@ class HireMeCard extends StatelessWidget {
               ],
             ),
           ),
-          DefaultButton(
+          MyOutlineButton(
             text: "Hire Me!",
             imageSrc: "assets/images/hand.png",
             press: () {},

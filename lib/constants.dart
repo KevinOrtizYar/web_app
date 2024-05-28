@@ -17,7 +17,6 @@ final kDefaultCardShadow = BoxShadow(
   color: Colors.black.withOpacity(0.1),
 );
 
-// TextField dedign
 final kDefaultInputDecorationTheme = InputDecorationTheme(
   border: kDefaultOutlineInputBorder,
   enabledBorder: kDefaultOutlineInputBorder,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:web_app/components/default_button.dart';
+import 'package:web_app/components/my_outline_button.dart';
 import 'package:web_app/components/section_title.dart';
 import 'package:web_app/constants.dart';
 import 'components/socal_card.dart';
@@ -20,7 +20,7 @@ class ContactSection extends StatelessWidget {
         children: [
           SizedBox(height: kDefaultPadding * 2.5),
           SectionTitle(
-            title: "Contact Me",
+            title: "Contacta conmigo",
             subTitle: "For Project inquiry and information",
             color: Color(0xFF07E24A),
           ),
@@ -99,7 +99,7 @@ class ContactForm extends StatelessWidget {
             child: TextFormField(
               onChanged: (value) {},
               decoration: InputDecoration(
-                labelText: "Your Name",
+                labelText: "Ingresa tu nombre ",
                 hintText: "Enter Your Name",
               ),
             ),
@@ -109,7 +109,7 @@ class ContactForm extends StatelessWidget {
             child: TextFormField(
               onChanged: (value) {},
               decoration: InputDecoration(
-                labelText: "Email Address",
+                labelText: "Correo Electronico",
                 hintText: "Enter your email address",
               ),
             ),
@@ -119,7 +119,7 @@ class ContactForm extends StatelessWidget {
             child: TextFormField(
               onChanged: (value) {},
               decoration: InputDecoration(
-                labelText: "Project Type",
+                labelText: "Tipo de Projecto",
                 hintText: "Select Project Type",
               ),
             ),
@@ -129,18 +129,16 @@ class ContactForm extends StatelessWidget {
             child: TextFormField(
               onChanged: (value) {},
               decoration: InputDecoration(
-                labelText: "Project Budget",
+                labelText: "Presupuesto del proyecto",
                 hintText: "Select Project Budget",
               ),
             ),
           ),
           SizedBox(
-            // height: 300,
-            // TextField by default cover the height, i tryed to fix this problem but i cant
             child: TextFormField(
               onChanged: (value) {},
               decoration: InputDecoration(
-                labelText: "Description",
+                labelText: "Descripcion",
                 hintText: "Write some description",
               ),
             ),
@@ -148,9 +146,9 @@ class ContactForm extends StatelessWidget {
           SizedBox(height: kDefaultPadding * 2),
           Center(
             child: FittedBox(
-              child: DefaultButton(
+              child: MyOutlineButton(
                 imageSrc: "assets/images/contact_icon.png",
-                text: "Contact Me!",
+                text: "Contactame Yaaa!",
                 press: () {},
               ),
             ),

@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:web_app/components/default_button.dart';
 import 'package:web_app/components/my_outline_button.dart';
 import 'package:web_app/constants.dart';
 import 'components/about_section_text.dart';
 import 'components/about_text_with_sign.dart';
-import 'components/experience_card.dart';
+import 'package:web_app/sections/about/components/experience_card.dart';
 
 class AboutSection extends StatelessWidget {
   @override
@@ -24,7 +23,7 @@ class AboutSection extends StatelessWidget {
                       "lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eius mod tempor incididunt ut labore et dolore mag aliqu a incididunt ut convallis. Lorem ipsum dolor sit amet, con sect et ullamco laboris nisi ut aliquip ex ea.",
                 ),
               ),
-              ExperienceCard(numOfExp: "08"),
+              ExperienceCard(numOfExp: "22"),
               Expanded(
                 child: AboutSectionText(
                   text:
@@ -43,9 +42,9 @@ class AboutSection extends StatelessWidget {
                 press: () {},
               ),
               SizedBox(width: kDefaultPadding * 1.5),
-              DefaultButton(
+              MyOutlineButton(
                 imageSrc: "assets/images/download.png",
-                text: "Download CV",
+                text: "Download CVV",
                 press: () {},
               ),
           ],
